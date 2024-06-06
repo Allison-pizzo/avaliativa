@@ -1,0 +1,269 @@
+@charset "UTF-8";   
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #9D8080;
+}
+
+header > nav > a{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    top: 50px;
+    font-weight: bolder;
+}
+
+header > nav{
+    position: static;
+    display:flex;
+    justify-content: right;
+}
+
+header > img{
+    position: relative;
+    top: -20px;
+}
+
+#imagem{
+    background-image: url(imagens/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 759px;
+
+}
+
+.yoga{
+    
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+.yoga > a {
+   position: relative;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+margin: 20px;
+padding: 10px 40px;
+border-radius: 10px;
+top: 200px;
+}
+
+.yoga > h1{
+    position: relative;
+    font-size: 4.5em;
+    padding: 10px;
+    top: 200px;
+}
+
+.yoga > h2{
+    position: relative;
+    font-size: 2.5em;
+    padding: 10px;
+    margin: 20px;
+    top: 200px
+}
+
+
+#slogan{
+
+    background-color: white;
+    color: black;
+    text-align: center;
+    height: 350px;
+    margin: 20px;
+    
+}
+
+#slogan > p {
+    position: relative;
+    margin: 30px;
+    top: 70px;
+    
+}
+
+#slogan > h1{
+    position: relative;
+font-size: 2.3em;
+top: 70px;
+}
+
+
+.coitainer{
+    background-color: #C3C63B;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+   
+    gap: 30px;
+   min-height: 800px;
+    padding: 20px;
+
+    
+}
+
+ .intem1{
+    background-image: url(imagens/itacare-01.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+
+    
+}
+
+.intem2{
+    background-image: url(imagens/itacare-02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.intem3{
+    background-image: url(imagens/itacare-03.jpg);
+    background-repeat: no-repeat;
+ background-size: cover;
+
+}
+
+.intem4{
+    background-image: url(imagens/itacare-04.jpg);
+    background-repeat: no-repeat;
+ background-size: cover;
+   background-position: center right;
+ 
+}
+
+.intem1{
+    grid-row: 1;
+    
+    width: 600px;
+}
+
+.intem2{
+    position: relative;
+    grid-row: 1;
+    width: 670px;
+ left: -50px;
+}
+
+.intem3{
+    grid-row: 2;
+    width: 670px;
+}
+
+.intem4{
+    grid-row: 2;
+    width: 600px;
+   
+}
+
+#verde{
+    background-color: #191C03;
+    color: white;
+  text-align: center;
+  
+}
+
+#verde > h1{
+    font-size: 2em;
+    padding: 30px;
+}
+
+#verde > p{
+    margin: 10px;
+    padding: 20px;
+}
+
+#verde > div {
+  display: inline-block;
+    max-height: 300px;
+    max-width: 300px;
+   
+   
+}
+
+#verde > div > h1 {
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2em;
+    color: #C3C63B;
+}
+
+#verde > div > p {
+    text-align: justify;
+    padding: 10px;
+    font-size: 10px;
+}
+
+section{
+    position: relative;
+    height: 400px;
+    color: rgb(206, 206, 14);
+    text-align: center;
+    top: 110px;
+}
+
+section > h1{
+    font-size: 1.6em;
+    margin: 20px;
+    padding-bottom: 30px;
+    
+}
+
+section > p{
+font-size: 0.8em;
+margin: 20px;
+padding-bottom: 30px;
+}
+
+#teste{
+    padding: 7px;
+  border: 1px solid #C3C63B;
+   border-radius: 3px;
+   width: 400px;
+   height: 30px;
+ 
+}
+#botao{
+ background-color: #C3C63B;
+ color: white;
+ height: 40px;
+ border: none;
+ border-radius: 3px;
+ padding: 10px;
+ margin-left: 5px;
+}
+
+#botao:hover{
+    color: black;
+}
+
+
+footer{
+    height: 100px;
+margin-top: 10px;
+    background-color: #393F06;;
+    text-align: center;
+    color: #989D19;
+    padding: 20px;
+    
+}
+
+footer > p {
+    margin: 20px;
+}
+
+footer > img{
+    margin-top: 20px;
+    max-width: 35px;
+    max-height: 35px;
+}
